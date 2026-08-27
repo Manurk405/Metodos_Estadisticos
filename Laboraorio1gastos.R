@@ -2,7 +2,7 @@
 300+240+1527+400+1500+1833
 celular <- 300
 celular
-comida <- 1000
+comida <- 5000
 renta <- 3000
 transporte <- 400
 otrosgastos <- 500
@@ -23,8 +23,9 @@ GastoSemestre
 GastoAnual <- GastoMensual*10
 GastoAnual
 
-gastos <- c(celular, comida, renta, transporte, subscripciones, gimnacio, otrosgastos)
-Categorias <- c("celular","comida", "renta", "transporte", "subscripciones", "gimnacio", "otrosgastos")
+gastos <- c(celular, comida, renta, transporte, gimnacio, otrosgastos)
+Categorias <- c("celular","comida", "renta", "transporte", "gimnacio", "otrosgastos")
 barplot(gastos, names.arg = Categorias)
+
 
 
