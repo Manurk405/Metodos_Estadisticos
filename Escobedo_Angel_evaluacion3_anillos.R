@@ -75,11 +75,15 @@ ACal2 <- c(2.10, 1.82, 2.64, 2.48, 1.70, 2.41, 2.95, 2.15, 2.30, 2.35)
 # --- a) Media de AFres y ACal -----------------------------------
 mean(AFres2)
 mean(ACal2)
+# mean(AFres2)= 2.586
+# mean(ACal2)= 2.29
 
 # --- b) Desviación estándar de AFres y ACal ---------------------
 
 sd(AFres2)
 sd(ACal2)
+# sd(AFres2)= 0.4808834
+# sd(ACal2)= 0.370735
 
 # --- c) Diferencia media entre ambos años -----------------------
 
