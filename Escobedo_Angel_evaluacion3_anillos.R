@@ -54,7 +54,9 @@ t.test(AFres, ACal, paired = TRUE)
 # El valor p es de 0.8683 por lo que estadisticamente no podemos decir que
 # el año calido redujo el creimiento de los anillos, el valor "t" es cercano a
 # cero lo que nos dice que no hay una difrencia grande entre el ancho medio de
-# los anillos 
+# los anillos.
+# La decision del responsable esta equivocada ya que existe evidencia estadistica
+# que demeustra que no es un sitio vunerable.
 
 # ==============================================================
 # EJERCICIO 2
@@ -100,3 +102,5 @@ t.test(AFres2, ACal2, paired = TRUE)
 # existe una disminucion en el crecimento de los anillos ya que tenemos 
 # un valor p menor a 0.05, el valor t nos dice que hay una difrencia entre 
 # las medias ya que en el año calido diminuyo el ancho.
+# Por lo tanto podemos decir que el sitio de menor altitud puede ser vunerable
+# para el desarollo de los pinos.
